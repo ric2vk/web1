@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; /* Remove default browser margins */
+  display: flex; /* Enable flexbox layout for centering */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically (optional) */
+  min-height: 100vh;
+background-color: #000;  /* Set minimum height for full viewport */
+}
+ h1,h3{  color: white}
+
+.container {
+  /* Additional styles for the container (optional) */
+}
+
+button {
+  /* Basic styles */
+  background-color: #333; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 20px; /* Padding around the button text */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  font-size: 16px; /* Text size for the button */
+  
+  /* Additional styles */
+  /* You can add more styles here to customize the button further */
+  transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out; /* Add smooth transitions on hover */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+}
+
+button:hover {
+  background-color: #444; /* Change background color on hover */
+  transform: scale(1.02); /* Slight scale up on hover for a subtle zoom effect */
+}
+
